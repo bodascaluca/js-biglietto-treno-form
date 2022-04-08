@@ -13,17 +13,17 @@
     <div class="container">
         <div class="form-username ms-3 pt-3">
             <label for="user-name">Nome utente</label>
-            <input type="text" name="user-name" id="username">
+            <input type="text" name="user-name" id="username" value="Luca">
         </div>
 
         <div class="form-km ms-3">
             <label for="form-km">Km da percorere</label>
-            <input type="number" name="form-km" id="formkm">
+            <input type="number" name="form-km" id="formkm" value="100">
         </div>
 
         <div class="form-age ms-3">
             <label for="user-age">Fascia d'eta</label>
-            <select name="user-age" id="user-age">
+            <select name="user-age" id="userage">
                 <option value="minorenne">Minorenne</option>
                 <option value="maggiorenne">Maggiorenne</option>
                 <option value="over 65">Over 65</option>
@@ -32,6 +32,10 @@
 
          <button class="ms-3" id="form-btn">Genera</button>
          <button class="ms-3" id="form-clear-btn">Anulla</button>
+        </div>
+
+        <div class="result">
+            <h2>Il prezzo è</h2>
         </div>
 
     <script src="js/script.js"></script>
