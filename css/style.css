@@ -1,0 +1,27 @@
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON  */
+body{
+    background-color: #b91350;
+}
+
+.container{
+   width: 80%; 
+   margin: 6rem auto;
+   border: 1px solid black;
+   /* border-radius: 50px; */
+   background-color: white;
+}
+
+.pt-3{
+    padding-top:3rem;
+}
+
+.ms-3{
+    margin-left:5rem ;
+}
