@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 class="">Calcola il prezzo del tuo biglietto</h1>
+    <h1 class="tx-center">Calcola il prezzo del tuo biglietto</h1>
 
     <div class="container">
-        <div class="form-username ms-3 pt-3">
+        <div class="form-username ms-3 pt-2">
             <label for="user-name">Nome utente</label>
             <input type="text" name="user-name" id="username" value="Luca">
         </div>
@@ -24,6 +24,7 @@
         <div class="form-age ms-3">
             <label for="user-age">Fascia d'eta</label>
             <select name="user-age" id="userage">
+                <option value=""></option>
                 <option value="minorenne">Minorenne</option>
                 <option value="maggiorenne">Maggiorenne</option>
                 <option value="over 65">Over 65</option>
@@ -34,9 +35,49 @@
          <button class="ms-3" id="form-clear-btn">Anulla</button>
         </div>
 
-        <div class="result">
+
+        <div class="result tx-center">
             <h2>Il prezzo è</h2>
         </div>
+
+        <div class="container">
+
+            <h3>DATTEGLIO PASSEGERI</h3>
+
+            <div class="flex">
+                <div class=" container-uno flex">
+                    <h3>NOME PASSEGERI</h3>
+                    <h5></h5>
+                </div>
+    
+                <div class=" container-due flex">
+                    <h3>Offerta</h3>
+                    <h5> </h5>
+                </div>
+    
+                <div class=" container-tre flex">
+                    <h3>Carozza</h3>
+                    <h5> </h5>
+                </div>
+    
+                <div class=" container-quattro flex">
+                    <h3>Costo CP</h3>
+                    <h5> </h5>
+                </div>
+    
+                <div class=" container-cinque flex">
+                    <h3>Costo biglietto</h3>
+                    <h5>&euro; </h5>
+                </div>
+            </div>
+          
+
+
+          
+        </div>
+
+
+        
 
     <script src="js/script.js"></script>
 </body>
